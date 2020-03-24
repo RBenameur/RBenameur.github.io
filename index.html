@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico"/>
         <link rel="stylesheet" href="./css/stylesheet.css">
-        <script src="../charity.js"></script>
+        <script src="./getInvolvedPage/charity.js"></script>
     </head>
     <body>
       <header>
@@ -43,6 +43,7 @@
             </div>
         </div>
       </header>
+      
 <!--About us section -->
         <div class="subheadingContainer">
             <img src="./subheadingImages/aboutUsImage.jpg" alt="About us image">
@@ -149,28 +150,28 @@
               <br>
               <br>
 <!-- enquiry form -->
-              <form id="enquiryForm" action="#collapseTrigger">
+              <form id="enquiryForm">
                 <div class="row">
                   <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" name="firstName">
+                    <input required type="text" class="form-control" placeholder="First name" name="firstName">
                   </div>
                   <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" name="surname">
+                    <input required type="text" class="form-control" placeholder="Last name" name="surname">
                   </div>
                 </div>
                 <br>
                 <div class="row">
                   <div class="col">
-                    <input type="text" class="form-control" placeholder="Telephone" name="telephone">
+                    <input required type="text" class="form-control" placeholder="Telephone" name="telephone">
                   </div>
                   <div class="col">
-                    <input type="text" class="form-control" placeholder="Email" name="email">
+                    <input required type="text" class="form-control" placeholder="Email" name="email">
                   </div>
                 </div>
                 <br>
                 <div class="form-group">
                   <label for="exampleFormControlSelect1">What is your enquiry concerning?</label>
-                  <select class="form-control" id="exampleFormControlSelect1" name="event">
+                  <select required class="form-control" id="exampleFormControlSelect1" name="event">
                     <option></option>
                     <option>Booking a speaker</option>
                     <option>Becoming a speaker</option>
@@ -181,7 +182,7 @@
                   <label for="exampleFormControlTextarea1">Message</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write message here"></textarea>
                 </div>
-                <button type="submit" class="btn btn-secondary btn-sm" id="submitEnquiryForm" onclick="stopPropagation()">Submit</button>
+                <button type="submit" class="btn btn-secondary btn-sm" id="submitEnquiryForm">Submit</button>
               </form>
             </div>
           </div>
@@ -201,7 +202,7 @@
            <a href="https://twitter.com/?lang=en-gb" target="_blank"><img src="./socialMediaIcon/twitterIcon.png" alt="Twitter Icon"></a>
          </div>
        </div>
-         &nbsp &nbsp Created by: Ana and Rania<i class="material-icons" style="color:rgb(251,192,45,0.7);"> whatshot</i>for CODE FIRST GIRLS 2020<span style="color:rgb(251,192,45,0.7);"> &hearts;</span>
+         &nbsp &nbsp Created by: Ana and Rania<i class="material-icons" style="color:rgb(251,192,45,0.7);"> whatshot</i>for CODE FIRST GIRLS 2020<span class="heartSpan" style="color:rgb(251,192,45,0.7);"> &hearts;</span>
       </footer>
     </body>
 </html>
