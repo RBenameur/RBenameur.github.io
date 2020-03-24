@@ -309,7 +309,12 @@ h5{
     h5{
         font: 3.2vw bolder Arial, Helvetica, sans-serif;
         color:rgb(251,192,45,0.7);
-      
+    }
+    .List{
+        display: flex;
+        color: rgb(47,47,47);
+        margin: 0%;
+        font-size: 2vw;
     }
 }
 /* get involved form edit */
