@@ -319,6 +319,15 @@ h5{
         font-size: 1em;
         line-height: normal;
     }
+    footer{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .socialMediaContainer{
+        padding-left:0%;
+        padding-right:0%;
+    }
 }
 /* get involved form edit */
 .form-events-container{
