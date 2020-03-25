@@ -264,6 +264,7 @@ h5{
 @media (max-width:1000px){
     body{
         padding-top: 0;
+        width:100%;
     }
     .container-fluid{
         position: unset;
@@ -309,7 +310,7 @@ h5{
         font: 3.2vw bolder Arial, Helvetica, sans-serif;
         color:rgb(251,192,45,0.7);
     }
-    .List{
+    .listItem{
         display: flex;
         color: rgb(47,47,47);
         margin: 0%;
@@ -319,15 +320,45 @@ h5{
         font-size: 1em;
         line-height: normal;
     }
-    footer{
+    Footer{
         width: 100%;
         margin: 0;
         padding: 0;
+        margin-top: 5%;
     }
     .socialMediaContainer{
         padding-left:0%;
         padding-right:0%;
+        width:100%;
     }
+    .webDevelopers{
+        width:100%;
+        padding:0;
+        margin:0;
+    }
+    .btn.btn-primary.buttons{
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(251,192,45,0.7);
+    color: rgb(47,47,47);
+    border: unset;
+    padding: 2.5% 2.5% 5% 2.5%;
+    margin: 2%;
+    width: 20%;
+    height: 100%;
+    font-size: 1.7vw;
+    min-width: 145px;
+    letter-spacing: 0.4em;
+    box-shadow: 0 0 1vw rgb(251,192,45,0.7);
+    text-align: center;
+}
+.loadAndEnquiryDiv{
+    display: flex;
+    justify-content: space-evenly;
+    height: 5vw;
+    width: 100%;
+    margin-bottom: 3%;
+}
 }
 /* get involved form edit */
 .form-events-container{
